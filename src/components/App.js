@@ -286,12 +286,12 @@ function App() {
       </div>
       <div id="myData">
         <div>
-          <div id="state-name">{states[selectedState].name}</div>
+          <div id="state-title">{states[selectedState].name}</div>
           <div id="state-description">{states[selectedState].description}</div>
         </div>
         <br />
         <div>
-          <div id="city-name">
+          <div id="city-title">
             {states[selectedState].city[selectedCity].name}
           </div>
           <div id="city-description">
@@ -300,7 +300,7 @@ function App() {
         </div>
         <br />
         <div>
-          <div id="landmark-name">
+          <div id="landmark-title">
             {
               states[selectedState].city[selectedCity].landmarks[
                 selectedLandmark
